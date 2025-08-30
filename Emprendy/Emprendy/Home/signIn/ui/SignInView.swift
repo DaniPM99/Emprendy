@@ -25,21 +25,21 @@ struct SignInView: View {
                 color: .creditText,
                 font: "BeVietnamPro-Regular"
             )
-            EmprendyButtonComponent(
+            EmprendyTextButtonComponent(
                 text: "Sign in",
                 size: 16,
                 textColor: .background,
                 font: "BeVietnamPro-Bold",
                 backgroundColor: .primaryButton
             )
-            EmprendyButtonComponent(
+            EmprendyTextButtonComponent(
                 text: "Continue with Apple",
                 size: 16,
                 textColor: .primaryText,
                 font: "BeVietnamPro-Bold",
                 backgroundColor: .secondaryButton
             )
-            EmprendyButtonComponent(
+            EmprendyTextButtonComponent(
                 text: "Continue with Google",
                 size: 16,
                 textColor: .primaryText,
